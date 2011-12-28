@@ -1,1 +1,7 @@
-Hello World
+Reply Pantry is a Google Chrome extension that allows you to store canned text for use in the Envato marketplace forums and on item comments.  To install, just download the .crx file via Chrome and it should auto-install.
+
+Once you install you'll see the can icon below your reply boxes in the forums – and above in the item comments. Click the can icon to show the text snippets ("cans"), and click a can title to insert that canned text. You're able to add, save, edit, and remove cans. Hopefully it’s fairly intuitive!
+
+Note that cans are marketplace-specific, because the script uses the localStorage API . That means there's no cross-domain storage. This could be a plus or a minus depending on the situation, but don't be surprised if your snippets seem to be missing on other marketplaces.
+
+Enjoy!
