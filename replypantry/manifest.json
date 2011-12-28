@@ -1,0 +1,60 @@
+{
+	"name": "ReplyPantry - Text in a Can",
+	"version": "1.0.1",
+	"description": "Canned response text for use on the Envato Forums and Item Comments",
+	"icons" : {
+		"16"	:	"icon16.png",
+  		"48"	:	"icon48.png",
+  		"128"	:	"icon128.png"
+	},
+	
+	"homepage_url" : "http://sevenspark.com",
+
+	"content_scripts": [ {
+      "include_globs": [ 
+      	"http://activeden.net/forums/*", 
+      	"http://audiojungle.net/forums/*", 
+      	"http://themeforest.net/forums/*", 
+      	"http://videohive.net/forums/*", 
+      	"http://graphicriver.net/forums/*", 
+      	"http://3docean.net/user/forums/*", 
+      	"http://codecanyon.net/forums/*", 
+      	"http://marketplace.tutsplus.com/forums/*", 
+      	"http://photodune.net/forums/*",
+      	
+      	"http://activeden.net/item/*/discussion/*", 
+      	"http://audiojungle.net/item/*/discussion/**", 
+      	"http://themeforest.net/item/*/discussion/*", 
+      	"http://videohive.net/item/*/discussion/*", 
+      	"http://graphicriver.net/item/*/discussion/*", 
+      	"http://3docean.net/item/*/discussion/*", 
+      	"http://codecanyon.net/item/*/discussion/*", 
+      	"http://marketplace.tutsplus.com/item/*/discussion/*", 
+      	"http://photodune.net/item/*/discussion/*",
+      	
+      	"http://activeden.net/author_dashboard", 
+      	"http://audiojungle.net/author_dashboard", 
+      	"http://themeforest.net/author_dashboard", 
+      	"http://videohive.net/author_dashboard", 
+      	"http://graphicriver.net/author_dashboard", 
+      	"http://3docean.net/user/author_dashboard", 
+      	"http://codecanyon.net/author_dashboard", 
+      	"http://marketplace.tutsplus.com/author_dashboard", 
+      	"http://photodune.net/author_dashboard",
+      	
+      	"http://activeden.net/author_dashboard/?all_comments=true", 
+      	"http://audiojungle.net/author_dashboard/?all_comments=true", 
+      	"http://themeforest.net/author_dashboard/?all_comments=true", 
+      	"http://videohive.net/author_dashboard/?all_comments=true", 
+      	"http://graphicriver.net/author_dashboard/?all_comments=true", 
+      	"http://3docean.net/user/author_dashboard/?all_comments=true", 
+      	"http://codecanyon.net/author_dashboard/?all_comments=true", 
+      	"http://marketplace.tutsplus.com/author_dashboard/?all_comments=true", 
+      	"http://photodune.net/author_dashboard/?all_comments=true"
+      ],
+      "js": [ "jquery.js", "script.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_idle"
+   } ]
+   
+}
