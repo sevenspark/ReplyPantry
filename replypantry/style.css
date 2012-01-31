@@ -98,11 +98,17 @@
 	width:300px !important;
 	max-height:100px;
 	display:block;
+	border-radius:0;
+	margin-bottom:10px;
 }
 .cankey-editor input[type='text']{
 	padding:8px !important;
 	width:280px !important;
 	-webkit-transition: all .2s ease-in-out;
+	border-radius:0;
+	
+	float:left;
+	margin-bottom:5px;	
 }
 .cankey-editor input[type='text']:not(:focus){
 	background: transparent;
@@ -113,14 +119,13 @@
 	color: white;
 	font-style: normal;
 	font-weight: bold;
-	
-	
 }
 
 .cankey-editor select#cankey-editor-cat{
 	width:auto !important;
 	display:block;
 	float:left;
+	border-radius:0;
 }
 .cankey-editor input[type="submit"]{
 	float:right;

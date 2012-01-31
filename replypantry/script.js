@@ -105,8 +105,9 @@
 	//Grab the existing reply box
 	
 	//Forums
-	var $replyBox = $('#items textarea[name="content"]');
-	
+	//var $replyBox = $('#items textarea[name="content"]');	//old
+	var $replyBox = $('#post_reply textarea[name="content"]');
+
 	//In the comments
 	if($replyBox.size() == 0){
 	
