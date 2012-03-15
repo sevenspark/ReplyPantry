@@ -45,6 +45,12 @@
 #cancontainer #cancontents ul li a img{
 	padding:0;
 }
+#cancontainer.item-comments{
+	position: absolute;
+	width: 200px;
+	z-index: 100;
+	bottom: 40px;
+}
 #canbutton{
 	position:relative;
 	margin:0;

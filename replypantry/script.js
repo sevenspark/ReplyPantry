@@ -209,7 +209,7 @@
 		$cancontainer.append($canbutton);
 	
 		if(typeCat == 'comments'){
-			$cancontainer.insertBefore($replyBox);
+			$cancontainer.addClass('item-comments').insertBefore($replyBox);
 		}
 		else $cancontainer.insertAfter($replyBox);
 
